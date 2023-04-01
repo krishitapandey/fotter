@@ -1,6 +1,11 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&family=Nunito:wght@300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+
 * , body {
   margin: 0;
   padding: 0;
+  font-family: 'Numito Sans', sans-serif;
 }
 footer {
   background: rgb(110, 109, 109);
@@ -37,7 +42,7 @@ img {
 p,h1 , ul , li 
 {
     margin: 2%;
-    color: aquamarine;
+    color: rgb(202, 219, 248);
 }
 .middle_row ul li {
   list-style: decimal;margin-top: 2%;
@@ -52,7 +57,8 @@ p,h1 , ul , li
 
 .bottom_fotter{
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
+  text-align: center;
 
    background: rgb(110, 109, 109);
   
